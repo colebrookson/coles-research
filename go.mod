@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/colebrookson/coles-research
 
 go 1.21
 

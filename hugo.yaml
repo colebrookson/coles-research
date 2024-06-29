@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://colebrookson.com
 
 languageCode: bn
-title: "John's Blog"
+title: "cole's research!"
 
 # Use Hugo modules to add theme
 module:
@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "cole's research!"
     weight: 1
   bn:
     languageCode: bn
@@ -63,12 +63,12 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/computer.png
+    inverted: /images/site/computer.png
+    favicon: /images/site/computer.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/colebrookson/coles-research
   # Default branch of your Git repo
   gitBranch: main
 
@@ -144,7 +144,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
@@ -280,7 +280,7 @@ params:
       enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
-      enable: true
+      enable: false
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
